@@ -2,12 +2,7 @@ body {
     margin: auto 0;
 }
 
-@media only screen and (max-width:400px) {
-    .a {
-        font-size: 0.5em;
-        padding: 0;
-    }
-}
+
 
 .a {
     display: flex;
@@ -69,4 +64,10 @@ a {
 
 footer {
     text-align: center;
+}
+@media only screen and (max-width:400px) {
+    .a {
+        font-size: 0.5em;
+        padding: 0;
+    }
 }
